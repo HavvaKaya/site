@@ -55,7 +55,7 @@ body{
 }
 
 .top-center a:hover{
-    color:#474366;
+    color:#434184;
     transition: 0.3s;
 }
 
@@ -80,7 +80,7 @@ body{
 }
 
 .top-right a:nth-child(1):hover{
-    background-color: #474366;
+    background-color: #434184;
     transition: 0.3s;
     color:#EFF0F0;
     box-shadow: none;
