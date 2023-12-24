@@ -13,6 +13,11 @@ body{
     background-color:#EFF0F0;
 }
 
+.non-mobile{
+    padding-left:10vw;
+    padding-right:10vw;
+}
+
 .top{
     display: flex;
     flex-direction: row;
