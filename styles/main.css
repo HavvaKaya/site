@@ -150,3 +150,109 @@ body{
     font-size:40px;
     color: #434184;
 }
+
+.menu{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    z-index: 2;
+    display: none;
+    flex-direction: column;
+    margin-top:115px;
+    margin-left:10vw;
+    margin-right:10vw;
+    height:225px;
+    background-color:#EFF0F0;
+    width:calc( 100% - 20vw);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    color:#8E8F8F; 
+    border: 3px solid #474366;
+    border-radius: 15px;
+    box-shadow: 5px 5px;
+    opacity: 0;
+}
+
+.menu.active{
+    display: flex;
+    opacity: 1;
+    transition: opacity 0.35s, visibility 0.35s, height 0.35s;
+}
+
+.menu a{
+    text-decoration: none;
+    color:#8E8F8F;
+    transition: 0.3s;
+}
+
+.menu a + a{
+    margin-top:15px;
+}
+
+@media screen and (max-width:1421px){
+
+    .main-second-text{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:1140px){
+    .top-right{
+        text-align: center;
+        justify-content: right;
+        width:20vw;
+    }
+
+    .yapboz-main-photo{
+        margin-top:50px;
+        width:400px;
+    }
+}
+
+@media screen and (max-width:1163px){
+    .top-center a:nth-child(4) {
+        display: none;
+    }
+}
+
+@media screen and (max-width:985px){
+    .top-center a:nth-child(2) {
+        display: none;
+    }
+}
+
+@media screen and (max-width:830px){
+    .top-center{
+        display: none;
+    }
+
+    .top-right{
+        width:300px;
+        margin-left:auto;
+    }
+
+    .top-right a:nth-child(2){
+        display: block;
+        margin-left:20px;
+        width:50px;
+    }
+
+    .top-under{
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px){
+    .top-right a:nth-child(1){
+        display: none;
+    }
+
+    .top-right a:nth-child(2){
+        width:40px;
+        height:40px;
+        line-height: 10px;
+        text-align: center;
+    }
+}
